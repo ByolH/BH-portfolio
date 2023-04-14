@@ -775,6 +775,7 @@ a.active {
         line-height: 50px;
     }
 
+   
     .pc_banner{
         display: none;
     }
@@ -790,7 +791,7 @@ a.active {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 520px) {
     nav ul{
         padding: 20px 0;
     }
