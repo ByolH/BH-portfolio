@@ -65,17 +65,17 @@ footer {
   color: rgb(196, 196, 196);
 }
 .header_tit {
-  text-align: center;
+  text-align: right;
   text-transform: uppercase;
-  margin-top: 55px;
+  margin-top: 170px;
   font-family: "Abel", sans-serif;
 }
 .header_tit h1 {
   font-size: 30px;
   color: #0e1628;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
   display: inline-block;
-  padding: 5px 30px;
+  padding: 3px 20px;
   letter-spacing: 2px;
   font-weight: 900;
   transition: box-shadow 0.5s ease-in-out;
@@ -86,9 +86,9 @@ footer {
 .header .header_tit a {
   font-size: 20px;
   color: #0e1628;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.4);
   display: inline-block;
-  padding: 4px 16px;
+  padding: 2px 10px;
   margin-top: 5px;
   transition: box-shadow 0.5s ease-in-out;
 }
@@ -96,9 +96,9 @@ footer {
   box-shadow: inset 0 0 0 100px rgb(255, 255, 255);
 }
 .header .header_icon {
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 40px;
+  text-align: right;
+  margin-top: 40px;
+  padding-bottom: 20px;
 }
 .header .header_icon li {
   display: inline-block;
@@ -106,16 +106,21 @@ footer {
 }
 .header .header_icon li a {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   color: #0e1628;
   display: inline-block;
-  font-size: 35px;
-  line-height: 66px;
+  font-size: 20px;
+  line-height: 40px;
   transition: all 0.3 ease;
 }
+
+.header .header_icon .fa-brands {
+  padding-right: 10px;
+}
+
 .header .header_icon li a span {
   position: absolute;
   left: 50%;
@@ -562,34 +567,34 @@ footer {
   background-color: rgba(0, 0, 0, 0.57);
 }
 .square a:nth-child(1):hover img {
-  filter: blur(2px);
+  filter: blur(1px);
 }
 .square a:nth-child(2):hover img {
-  filter: brightness(200%);
+  filter: brightness(70%);
 }
 .square a:nth-child(3):hover img {
-  filter: contrast(10%);
+  filter: contrast(70%);
 }
 .square a:nth-child(4):hover img {
-  filter: grayscale(100%);
+  filter: grayscale(70%);
 }
 .square a:nth-child(5):hover img {
-  filter: hue-rotate(120deg);
+  filter: hue-rotate(15deg);
 }
 .square a:nth-child(6):hover img {
   filter: invert(100%);
 }
 .square a:nth-child(7):hover img {
-  filter: opacity(10%);
+  filter: opacity(50%);
 }
 .square a:nth-child(8):hover img {
   filter: saturate(10%);
 }
 .square a:nth-child(9):hover img {
-  filter: sepia(120%);
+  filter: sepia(60%);
 }
 .square a:nth-child(10):hover img {
-  filter: sepia(120%) hue-rotate(120deg);
+  filter: brightness(90%) grayscale(50%);
 }
 
 /* 비디오 */
