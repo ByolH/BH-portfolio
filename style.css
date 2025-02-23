@@ -265,7 +265,6 @@ nav li a {
 
 .bg-nav {
     background: rgba(55, 60, 80, 0.8);
-    border-bottom: 1px solid #f3f3f3
 }
 
 .bg-nav ul {
@@ -606,12 +605,15 @@ a:hover {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #fffeb6;
+    background-color: white;
+    border: 1px solid #224b76;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #fffeb6;
+    box-shadow: inset 40em 0 0 0 white;
     color: #224b76;
+    border: 1px solid #224b76;
+    cursor: default;
 }
 
 .timeline-event-copy {
