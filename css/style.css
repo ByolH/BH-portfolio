@@ -264,8 +264,7 @@ nav li a {
 }
 
 .bg-nav {
-    background: #fff;
-    border-bottom: 1px solid #f3f3f3
+    background: rgba(55, 60, 80, 0.8);
 }
 
 .bg-nav ul {
@@ -278,14 +277,20 @@ a:focus {
 }
 
 a:hover {
-    color: #224b76;
+    color: #ffffff;
     text-decoration: none;
+    /*text-underline-offset: 8px;*/
 }
 
-a.active {
-    color: #224b76;
-}
+/*a.active {*/
+/*   text-decoration: underline;*/
+/*    text-underline-offset: 8px;*/
+/*}*/
 
+.navbar-fixed-top a:hover, .navbar-fixed-top a.active{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
 
 /* home section
 ==================================================*/
@@ -534,13 +539,13 @@ a.active {
 }
 
 .project_btn:hover{
-    color:#224b76;
-	background:#fffeb6;
+    box-shadow: 5px 5px 5px 0px rgb(34 75 118 / 25%);
 }
 
 .project_btn_box{
     text-align:left;
     padding-top:20px;
+    padding-bottom: 20px;
 }
 
 
@@ -600,12 +605,15 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #fffeb6;
+    background-color: white;
+    border: 1px solid #224b76;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #fffeb6;
+    box-shadow: inset 40em 0 0 0 white;
     color: #224b76;
+    border: 1px solid #224b76;
+    cursor: default;
 }
 
 .timeline-event-copy {
